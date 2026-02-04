@@ -1,7 +1,7 @@
 //Indeces do Maior e do Menor
 
 
-function indecesMaiorMenor(array) {
+function indicesMaiorMenor(array) {
     if (array.length === 0) return null;
     let maior = 0;
     let menor = 0;
@@ -13,5 +13,5 @@ function indecesMaiorMenor(array) {
         }   
     return { maior, menor };
 }
-//console.log(indecesMaiorMenor([3, 5, 1, 8, 2, 7, 4, 6]));
-module.exports = { indecesMaiorMenor };
+//console.log(indicesMaiorMenor([3, 5, 1, 8, 2, 7, 4, 6]));
+module.exports = { indicesMaiorMenor };
